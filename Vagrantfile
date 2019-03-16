@@ -1,9 +1,9 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-$centos_version = "1809.01"
-$additions_url = "https://download.virtualbox.org/virtualbox/5.2.20/VBoxGuestAdditions_5.2.20.iso"
-$additions_sha256 = "d3c4a0f79a1ff0c35190c530612d83b81a2035eb9f056237888d8b056c07005f"
+$centos_version = "1902.01"
+$additions_url = "https://download.virtualbox.org/virtualbox/6.0.4/VBoxGuestAdditions_6.0.4.iso"
+$additions_sha256 = "749b0c76aa6b588e3310d718fc90ea472fdc0b7c8953f7419c20be7e7fa6584a"
 
 Vagrant.configure("2") do |config|
   config.vm.box = "centos/7"

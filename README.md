@@ -7,4 +7,13 @@ vagrant up
 vagrant package
 ```
 
+To test the build image run:
+```
+cd test
+vagrant up
+vagrant destroy
+vagrant box remove test
+cd ..
+```
+
 The generated box file can then be used or deployed to a box repository.
